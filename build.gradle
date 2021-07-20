@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '4.2.0'
+    testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '4.2.0'
+    testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.30'
+}
+
+
+test {
+    useJUnitPlatform()
+}
