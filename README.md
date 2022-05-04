@@ -1,2 +1,2 @@
-Este es un repositorio de Automation, usando Intellij Idea, Selenium, Cucumber y Gradle
-.Usando los patrones Page Objetc 
+
+This is an Automation repository, using Intellij Idea, Selenium, Cucumber and Gradle .Using Page Objetc patterns
